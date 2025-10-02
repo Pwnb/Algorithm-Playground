@@ -1,10 +1,10 @@
-# Algorithm Notes (rename this repo however you like)
+# Algorithm Playground
 
-A clean structure for recording algorithm problem-solving notes with Jupyter Notebooks.
+Recording my algorithm problem-solving notes with Jupyter Notebooks.
 
 ## Structure
 ```
-algorithm-notes/
+Algorithm-Playground/
   README.md
   .gitignore
   notebooks/
@@ -24,14 +24,8 @@ algorithm-notes/
 
 ## Naming Convention
 - One problem per notebook, e.g. `0001-two-sum.ipynb`.
-- Place any images under `img/` inside the problem folder and reference with Markdown: `![](img/prompt.png)`.
 
-## VS Code + Git Quick Workflow
-1. Open folder in VS Code. Install the **Python** and **Jupyter** extensions.
-2. Use the **Source Control** tab → **Initialize Repository** (if needed).
-3. After edits: **Source Control** → write a message → **Commit** → **Publish Branch / Sync Changes** to GitHub.
-
-## Notebook Sections (recommended)
+## Notebook Sections
 - Problem Info (title, link, image, constraints)
 - Intuition / Patterns
 - Approach 1 (brute force) + complexity
